@@ -387,33 +387,36 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É O DR. JEOVAN RODRIGUES",
+      title: "Minha trajetória",
+      subtitle:
+        "Mais de 20 anos de advocacia com valores, eficiência e visão acessível",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Com mais de 20 anos de experiência na advocacia, construí uma
+          trajetória baseada em ética, credibilidade e compromisso com
+          resultados concretos.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Com mais de 20 anos de experiência na advocacia, construí uma
+          trajetória baseada em ética, credibilidade e compromisso com
+          resultados concretos.
           <br />
           <br />
-          A_Definir
+          Acredito que o acesso à justiça deve ser descomplicado. Por isso,
+          idealizei um escritório moderno, acessível e próximo do cliente, onde
+          a escuta atenta faz parte do atendimento.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
+          Meu foco é oferecer soluções jurídicas com eficiência, transparência e
+          total dedicação, sempre respeitando a individualidade de cada caso.
           <br />
           <br />
         </p>
@@ -427,14 +430,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        paragraph: <p></p>,
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
