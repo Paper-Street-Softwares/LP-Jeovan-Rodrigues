@@ -1,23 +1,23 @@
-import logo from "../assets/imgs/logo/logo.webp";
+import logo from "../assets/imgs/logo/logo.png";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgServices.webp";
+import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
 import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.webp";
+import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dra. Mayara Souza",
+  name: "Dr. Jeovan Rodrigues",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "mayarasouzaadv.com.br", // Sem "www"
+  domain: "jeovanrodrigues.adv.br", // Sem "www"
   phone: {
-    ddd: "61",
-    firstPart: "98119", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7144", // Apenas os 4 últimos números
+    ddd: "84",
+    firstPart: "99972", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "2606", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -96,7 +96,7 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "mayarasouzadasilva.ms", // Sem o @
+  instagramProfile: "jeovanrodrigues1", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -123,21 +123,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADA EM CEILÂNDIA - DF",
+      miniTag: "ADVOGADO EM PARNAMIRIM E NATAL - RN",
       title: (
         <h1 className="mb-[16px]">
-          Ignorar seus direitos
-          <span className="text-primary"> tem custo</span>
+          Esperar pode custar mais do que
+          <span className="text-primary"> agir</span>
         </h1>
       ),
       subtitle:
-        "A maioria só descobre quando já é tarde. Aqui, o atendimento é claro, humano e estratégico.",
+        "Atuar com estratégia é essencial. Deixe a burocracia comigo e foque no que realmente importa.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Quero entender meus direitos",
+      ctaButtonText: "Quero resolver meu problema",
       obsHero: {
         icon: (
           <svg
@@ -157,7 +157,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online para todo Brasil.",
+        text: "Atendimento presencial em Parnamirim e Natal - RN. Online para todo Brasil.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -183,16 +183,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Atendimento jurídico em múltiplas especialidades",
+      miniTag: "ESPECIALIDADES",
+      title: "Áreas em que atuo com dedicação e excelência",
       subtitle:
-        "Atuação estratégica nas principais áreas do Direito para oferecer soluções completas e eficazes aos clientes.",
+        "Conheça os principais ramos do Direito que fazem parte do meu trabalho diário",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Civil e Contratual",
-        subtitle: "Conflitos, contratos, danos e cobranças judiciais.",
+        title: "Direito Previdenciário",
+        subtitle: "Aposentadorias, pensões e benefícios do INSS.",
         description: (
           <div>
             A_Definir
@@ -213,13 +213,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-handshake-icon lucide-handshake"
+            class="lucide lucide-shield-check-icon lucide-shield-check"
           >
-            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
-            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
-            <path d="m21 3 1 11h-2" />
-            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
-            <path d="M3 4h8" />
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="m9 12 2 2 4-4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -227,8 +224,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito de Família e Sucessões",
-        subtitle: "Divórcio, pensão, guarda, inventário e testamento.",
+        title: "Direito de Sucessões",
+        subtitle: "Inventários, partilhas, testamentos e heranças.",
         description: (
           <div>
             A_Definir
@@ -249,12 +246,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users-icon lucide-users"
+            class="lucide lucide-book-marked-icon lucide-book-marked"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <circle cx="9" cy="7" r="4" />
+            <path d="M10 2v8l3-3 3 3V2" />
+            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -262,8 +257,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Penal e Processual Penal",
-        subtitle: "Defesa em inquéritos, processos e audiências.",
+        title: "Direito Imobiliário",
+        subtitle: "Segurança jurídica na regularização de imóveis.",
         description: (
           <div>
             A_Definir <br />
@@ -283,13 +278,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
+            class="lucide lucide-house-icon lucide-house"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+            <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -297,8 +289,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito Trabalhista e Previdenciário",
-        subtitle: "Ações trabalhistas, aposentadorias e benefícios.",
+        title: "Consultoria Jurídica",
+        subtitle: "Orientação legal preventiva e análise contratual.",
         description: (
           <div>
             A_Definir
@@ -319,12 +311,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            class="lucide lucide-gavel-icon lucide-gavel"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
+            <path d="m16 16 6-6" />
+            <path d="m8 8 6-6" />
+            <path d="m9 7 8 8" />
+            <path d="m21 11-8-8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -394,51 +387,36 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A DRA. MAYARA SOUZA",
+      miniTag: "QUEM É O DR. JEOVAN RODRIGUES",
       title: "Minha trajetória",
       subtitle:
-        "Comprometida com ética, excelência e soluções jurídicas personalizadas.",
+        "Mais de 20 anos de advocacia com valores, eficiência e visão acessível",
       labelInstagram: "Siga-me no Instagram",
       labelFacebook: "Siga-me no Facebook",
       labelLinkedin: "Siga-me no LinkedIn",
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          O escritório liderado pela Dra. Mayara Souza nasceu do desejo de
-          tornar o Direito mais acessível, compreensível e acolhedor para todos.
-          <br />
-          Com uma atuação pautada na ética, integridade e excelência, o
-          escritório se diferencia por oferecer um atendimento realmente
-          personalizado, atento às necessidades e particularidades de cada
-          cliente.
+          Com mais de 20 anos de experiência na advocacia, construí uma
+          trajetória baseada em ética, credibilidade e compromisso com
+          resultados concretos.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          O escritório liderado pela Dra. Mayara Souza nasceu do desejo de
-          tornar o Direito mais acessível, compreensível e acolhedor para todos.
+          Com mais de 20 anos de experiência na advocacia, construí uma
+          trajetória baseada em ética, credibilidade e compromisso com
+          resultados concretos.
           <br />
           <br />
-          Com uma atuação pautada na ética, integridade e excelência, o
-          escritório se diferencia por oferecer um atendimento realmente
-          personalizado, atento às necessidades e particularidades de cada
-          cliente.
+          Acredito que o acesso à justiça deve ser descomplicado. Por isso,
+          idealizei um escritório moderno, acessível e próximo do cliente, onde
+          a escuta atenta faz parte do atendimento.
           <br />
           <br />
-          Desde o início, o foco sempre foi tratar cada caso com dedicação única
-          — não apenas buscando resultados positivos, mas também garantindo que
-          o cliente se sinta seguro, ouvido e respeitado durante todo o
-          processo.
-          <br />
-          <br />
-          Acreditamos que a confiança é construída com escuta, transparência e
-          responsabilidade.
-          <br />
-          <br />
-          Mais do que oferecer soluções jurídicas, nossa missão é caminhar lado
-          a lado com o cliente, descomplicando o acesso à Justiça e promovendo
-          um atendimento humanizado e de alta qualidade.
+          Meu foco é oferecer soluções jurídicas com eficiência, transparência e
+          total dedicação, sempre respeitando a individualidade de cada caso.
           <br />
           <br />
         </p>
@@ -477,9 +455,9 @@ const content = {
       // miniTag: "FALE CONOSCO",
       title: (
         <h1>
-          <span className="text-bgSectionDark">Dúvidas?</span> Entre em contato
+          <span className="text-primary">Dúvidas?</span> Entre em contato
           conosco para podermos lhe ajudar,{" "}
-          <span className="text-bgSectionDark">estamos te esperando.</span>
+          <span className="text-primary">estamos te esperando.</span>
         </h1>
       ),
       subtitleDireita: (
