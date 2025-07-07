@@ -6,6 +6,9 @@ export const theme = {
       // Principais
 
       primary: "#FFD700",
+      buttonColor: "#FFD700",
+      minititle: "#FFD700",
+
       secondary: "#000000",
 
       // Fundos de Seção
@@ -25,10 +28,8 @@ export const theme = {
       // Botões e Links
 
       links: "#0189BB",
-      buttonColor: "#DBB14C",
       iconButtons: "#000",
       labelButtons: "#000",
-      minititle: "#57A595",
 
       // Sombras
 
