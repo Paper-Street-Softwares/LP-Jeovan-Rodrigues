@@ -123,11 +123,11 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADO EM PARNAMIRIM E NATAL - RN",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Esperar pode custar mais do que
+          <span className="text-primary"> agir</span>
         </h1>
       ),
       subtitle: "A_Definir",
