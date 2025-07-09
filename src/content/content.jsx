@@ -390,14 +390,14 @@ const content = {
       miniTag: "QUEM É O DR. JEOVAN RODRIGUES",
       title: "Minha trajetória",
       subtitle:
-        "Mais de 20 anos de advocacia com valores, eficiência e visão acessível",
+        "Mais de 15 anos de advocacia com valores, eficiência e visão acessível",
       labelInstagram: "Siga-me no Instagram",
       labelFacebook: "Siga-me no Facebook",
       labelLinkedin: "Siga-me no LinkedIn",
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Com mais de 20 anos de experiência na advocacia, construí uma
+          Com mais de 15 anos de experiência na advocacia, construí uma
           trajetória baseada em ética, credibilidade e compromisso com
           resultados concretos.
         </div>
@@ -405,7 +405,7 @@ const content = {
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Com mais de 20 anos de experiência na advocacia, construí uma
+          Com mais de 15 anos de experiência na advocacia, construí uma
           trajetória baseada em ética, credibilidade e compromisso com
           resultados concretos.
           <br />
