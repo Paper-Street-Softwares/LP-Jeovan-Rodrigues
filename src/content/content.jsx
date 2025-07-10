@@ -257,8 +257,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Imobiliário",
-        subtitle: "Segurança jurídica na regularização de imóveis.",
+        title:
+          "Direito Imobiliário: Regularização de imóveis no judicial e extrajudicial",
+        subtitle: "Análise de risco na compra de imóveis.",
         description: (
           <div>
             A_Definir <br />
