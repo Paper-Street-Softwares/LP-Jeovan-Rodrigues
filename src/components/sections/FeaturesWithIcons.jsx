@@ -90,4 +90,3 @@ export default function FeaturesWithIcons({ colorMode }) {
     </SectionArea>
   );
 }
-// comentario
