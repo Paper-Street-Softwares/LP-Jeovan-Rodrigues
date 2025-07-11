@@ -192,7 +192,8 @@ const content = {
       card1: {
         img: featuresImg1,
         title: "Direito Previdenciário",
-        subtitle: "Aposentadorias, pensões e benefícios do INSS.",
+        subtitle:
+          "Benefícios previdenciários do RGPS - INSS ( aposentadorias,  pensões) e planejamento previdenciário.",
         description: (
           <div>
             A_Definir
@@ -224,8 +225,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito de Sucessões",
-        subtitle: "Inventários, partilhas, testamentos e heranças.",
+        title: "Direito Sucessório judicial e extrajudicial judicial",
+        subtitle: "Inventários, testamento, partilha, sobrepartilha.",
         description: (
           <div>
             A_Definir
@@ -259,7 +260,8 @@ const content = {
         img: featuresImg3,
         title:
           "Direito Imobiliário: Regularização de imóveis no judicial e extrajudicial",
-        subtitle: "Análise de risco na compra de imóveis.",
+        subtitle:
+          "Ação de usucapião, adjudicação, elaboração e análise de contratos.",
         description: (
           <div>
             A_Definir <br />
@@ -390,8 +392,12 @@ const content = {
       },
       miniTag: "QUEM É O DR. JEOVAN RODRIGUES",
       title: "Minha trajetória",
-      subtitle:
-        "Mais de 15 anos de advocacia com valores, eficiência e visão acessível",
+      subtitle: (
+        <p>
+          Advogado OAB/RN 7185B <br /> Mais de 15 anos de advocacia com valores,
+          eficiência e visão acessível
+        </p>
+      ),
       labelInstagram: "Siga-me no Instagram",
       labelFacebook: "Siga-me no Facebook",
       labelLinkedin: "Siga-me no LinkedIn",
