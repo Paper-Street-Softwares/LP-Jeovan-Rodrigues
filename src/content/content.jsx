@@ -225,7 +225,7 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Sucessório judicial e extrajudicial judicial",
+        title: "Direito Sucessório judicial e extrajudicial",
         subtitle: "Inventários, testamento, partilha, sobrepartilha.",
         description: (
           <div>
@@ -261,7 +261,7 @@ const content = {
         title:
           "Direito Imobiliário: Regularização de imóveis no judicial e extrajudicial",
         subtitle:
-          "Ação de usucapião, adjudicação, elaboração e análise de contratos.",
+          "Ação de usucapião, adjudicação, elaboração e análise de contratos. Análise de risco na compra e venda de imóveis urbanos e rurais.",
         description: (
           <div>
             A_Definir <br />
