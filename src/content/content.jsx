@@ -391,7 +391,7 @@ const content = {
         alt: "Imagem profissional de escritório/advogado(a)",
       },
       miniTag: "QUEM É O DR. JEOVAN RODRIGUES",
-      title: "Minha trajetória",
+      title: "Quem sou",
       subtitle: (
         <p>
           Advogado OAB/RN 7185B <br /> Mais de 15 anos de advocacia com valores,
@@ -404,28 +404,61 @@ const content = {
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Com mais de 15 anos de experiência na advocacia, construí uma
-          trajetória baseada em ética, credibilidade e compromisso com
-          resultados concretos.
+          Sou advogado inscrito na OAB/RN sob o nº 7185B, com mais de 15 anos de
+          atuação jurídica e especialista em Direito Previdenciário, Direito
+          Imobiliário, Direito Registral e Direito Sucessório, com experiência
+          tanto na esfera judicial quanto extrajudicial.
+          <br />
+          <br />
+          Minha missão é oferecer soluções jurídicas eficazes, com ética,
+          estratégia e compromisso com os resultados, sempre priorizando a
+          segurança e o interesse dos meus clientes.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Com mais de 15 anos de experiência na advocacia, construí uma
-          trajetória baseada em ética, credibilidade e compromisso com
-          resultados concretos.
+          Sou advogado inscrito na OAB/RN sob o nº 7185B, com mais de 15 anos de
+          atuação jurídica e especialista em Direito Previdenciário, Direito
+          Imobiliário, Direito Registral e Direito Sucessório, com experiência
+          tanto na esfera judicial quanto extrajudicial.
           <br />
           <br />
-          Acredito que o acesso à justiça deve ser descomplicado. Por isso,
-          idealizei um escritório moderno, acessível e próximo do cliente, onde
-          a escuta atenta faz parte do atendimento.
+          Minha missão é oferecer soluções jurídicas eficazes, com ética,
+          estratégia e compromisso com os resultados, sempre priorizando a
+          segurança e o interesse dos meus clientes.
+          <br />
+          No Direito Previdenciário, atuo com foco na concessão de benefícios e
+          no planejamento previdenciário do RGPS (INSS), atendendo segurados
+          urbanos e rurais e prestando suporte em demandas administrativas e
+          judiciais para garantir o acesso a aposentadorias, auxílios e pensões
+          de forma segura e adequada à realidade de cada cliente.
           <br />
           <br />
-          Meu foco é oferecer soluções jurídicas com eficiência, transparência e
-          total dedicação, sempre respeitando a individualidade de cada caso.
+          Na área do Direito Imobiliário, presto consultoria e assessoria em
+          compra e venda de imóveis, com análise de risco na aquisição de bens
+          urbanos e rurais, regularização de imóveis, elaboração e revisão de
+          contratos, litígios possessórios e assessoria jurídica a investidores
+          em leilões judiciais e extrajudiciais.
           <br />
           <br />
+          No Direito Sucessório, atuo em inventários, partilhas de bens,
+          adjudicação e sobrepartilha, tanto na esfera judicial quanto
+          extrajudicial, assegurando a correta regularização e transmissão do
+          patrimônio, com atenção à celeridade e à segurança jurídica dos
+          processos.
+          <br />
+          <br />
+          No campo do Direito Registral, atuo na orientação e acompanhamento de
+          procedimentos extrajudiciais, como usucapiões, retificações de
+          registro, escrituras públicas e demais atos notariais e registrais,
+          visando à regularização e à segurança jurídica de imóveis e
+          patrimônio.
+          <br />
+          <br />
+          Meu compromisso é oferecer um atendimento personalizado, pautado na
+          confiança, no respeito e na busca contínua por atualização e
+          excelência jurídica.
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
