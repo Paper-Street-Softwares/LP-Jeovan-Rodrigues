@@ -191,9 +191,9 @@ const content = {
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Previdenciário",
+        title: "Previdenciário",
         subtitle:
-          "Benefícios previdenciários do RGPS - INSS ( aposentadorias,  pensões) e planejamento previdenciário.",
+          "Benefícios previdenciários do RGPS - INSS (aposentadorias,  pensões) e planejamento previdenciário.",
         description: (
           <div>
             A_Definir
@@ -259,7 +259,7 @@ const content = {
       card3: {
         img: featuresImg3,
         title:
-          "Direito Imobiliário: Regularização de imóveis no judicial e extrajudicial",
+          "Imobiliário: Regularização de imóveis no judicial e extrajudicial",
         subtitle:
           "Ação de usucapião, adjudicação, elaboração e análise de contratos. Análise de risco na compra e venda de imóveis urbanos e rurais.",
         description: (
