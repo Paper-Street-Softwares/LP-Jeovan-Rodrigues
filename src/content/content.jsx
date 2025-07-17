@@ -191,7 +191,7 @@ const content = {
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Previdenciário",
+        title: "Direito Previdenciário",
         subtitle:
           "Benefícios previdenciários do RGPS - INSS (aposentadorias,  pensões) e planejamento previdenciário.",
         description: (
@@ -259,7 +259,7 @@ const content = {
       card3: {
         img: featuresImg3,
         title:
-          "Imobiliário: Regularização de imóveis no judicial e extrajudicial",
+          "Direito Imobiliário: Regularização de imóveis no judicial e extrajudicial",
         subtitle:
           "Ação de usucapião, adjudicação, elaboração e análise de contratos. Análise de risco na compra e venda de imóveis urbanos e rurais.",
         description: (
@@ -405,9 +405,9 @@ const content = {
       paragraph: (
         <div>
           Sou advogado inscrito na OAB/RN sob o nº 7185B, com mais de 15 anos de
-          atuação jurídica e especialista em Direito Previdenciário, Direito
-          Imobiliário, Direito Registral e Direito Sucessório, com experiência
-          tanto na esfera judicial quanto extrajudicial.
+          atuação jurídica e especialista em Direito Previdenciário,
+          Imobiliário, Registral e Sucessório, com experiência tanto na esfera
+          judicial quanto extrajudicial.
           <br />
           <br />
           Minha missão é oferecer soluções jurídicas eficazes, com ética,
@@ -419,9 +419,9 @@ const content = {
       modal: (
         <p>
           Sou advogado inscrito na OAB/RN sob o nº 7185B, com mais de 15 anos de
-          atuação jurídica e especialista em Direito Previdenciário, Direito
-          Imobiliário, Direito Registral e Direito Sucessório, com experiência
-          tanto na esfera judicial quanto extrajudicial.
+          atuação jurídica e especialista em Direito Previdenciário,
+          Imobiliário, Registral e Sucessório, com experiência tanto na esfera
+          judicial quanto extrajudicial.
           <br />
           <br />
           Minha missão é oferecer soluções jurídicas eficazes, com ética,
